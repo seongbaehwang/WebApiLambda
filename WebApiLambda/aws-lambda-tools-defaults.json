@@ -12,5 +12,5 @@
     "function-timeout"     : 15,
     "function-runtime"     : "dotnetcore2.1",
     "tracing-mode"         : "PassThrough",
-    "environment-variables" : "\"Serilog__MinimumLevel__Default\"=\"Information\";\"Serilog__MinimumLevel__Override__Microsoft\"=\"Warning\";\"Serilog__MinimumLevel__Override__System\"=\"Warning\""
+    "environment-variables" : "\"Serilog__MinimumLevel__Default\"=\"Information\";\"Serilog__MinimumLevel__Override__Microsoft\"=\"Warning\";\"Serilog__MinimumLevel__Override__System\"=\"Warning\";\"ASPNETCORE_ENVIRONMENT\"=\"Development\";\"ApiGatewayStage\"=\"prod\""
 }
