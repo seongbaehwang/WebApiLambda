@@ -55,7 +55,7 @@ namespace WebApiLambda.Infrastructure
                 {
                     context.Response.StatusCode,
                     error.Message,
-                    Error = error
+                    Error = error.ToString()
                 }, mvcJsonOptions.SerializerSettings));
         }
     }
